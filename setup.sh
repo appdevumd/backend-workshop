@@ -17,7 +17,7 @@ then
     echo "export const BACKEND_IP = \"$backend_ip\";" > ./app/ip.js
 
     echo ""
-    echo "Done setup! Happy Hacking!"
+    echo "DONE!"
 else
     echo "Unable to find node. Please install from https://nodejs.org/en/download/ or your package manager of choice."
 fi
